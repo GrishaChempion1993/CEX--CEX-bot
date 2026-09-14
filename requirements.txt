@@ -1,0 +1,9 @@
+aiohttp>=3.9.0
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+certifi>=2024.0.0
+playwright>=1.42.0
+redis>=5.0.0
+web3>=6.0.0
+solders>=0.20.0
+base58>=2.1.1

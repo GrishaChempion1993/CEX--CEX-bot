@@ -1,0 +1,92 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment
+.env
+.env.*
+!.env.example
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Data cache
+app/data/*
+!app/data/.gitkeep
+
+# Private server snapshots and downloaded dependencies (never publish)
+/parser_server_*/
+/_tmp/
+/mexc-futures-sdk-main/
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.7z
+*.deb
+*.bak
+*.bak.*
+*.save
+*.save.*
+*.pem
+*.key
+*.p12
+*.pfx
+.ssh/
+.cloudflared/
+.bash_history
+.zsh_history
+.cache/
+.local/
+.private/
+
+# Browser sessions, traces and local assistant/editor state
+.playwright-cli/
+.playwright/
+playwright-report/
+test-results/
+*storage_state*.json
+*storage-state*.json
+*cookies*.json
+*session*.json
+.cursor/
+.claude/
+.codex/
+.pytest_cache/
+
+# Local downloads and diagnostics
+/install.cmd
+/result.json
+/`
+/pairs.txt
+
+# Logs
+*.log
+logs/
+
